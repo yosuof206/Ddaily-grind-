@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+  <style>
+      * {padding:0; margin:0;}
+html {background-color:#e97b32;}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	max-width:960px; /* keeps from getting too large on wide screen */
+	width:90%; /* shrink to fit screen */
+	margin:auto; /* center in html element */
+	background-color:#fff;
+	padding:20px;
+	min-height:100%; /* keeps from getting too large on wide screen */
+	}
+img.flexible {
+	float:right;
+	display:inline-block;
+	padding:20px;
+	max-width:300px; /* actual size of image */
+	width:33%; /* approximate size taken on screen in maximum view */
+}
+p {margin:10px;}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	margin:10px;
+	}
+h1.masthead {margin-top:0;}
+footer {
+	text-align:center;
+	clear:both; /* ride below all items */
+	}
+nav{
+	text-align:center; /* centers the nav */
+}
+
+nav ul {
+		list-style:none; /* removes the bullets */
+	}
+nav ul li
+	{
+		display:inline-block; /* makes horizontal, but able to declare margins */
+		margin:0 2%; /* margin left-right, gets smaller as necessary */
+	}
+nav a:hover{
+	text-decoration: none;
+}	
+  </style>
+<body>
+    <h1>This is Javescript</h1>
+   <span class="coffee-output"> </span>
+	
+   <h3>Coffee Specials for Each Day of the Week</h3>
+        <p><a href="?day=0">Sunday</a></p>
+        <p><a href="?day=1">Monday</a></p>
+        <p><a href="?day=2">Tuesday</a></p>
+        <p><a href="?day=3">Wednesday</a></p>
+        <p><a href="?day=4">Thursday</a></p>
+        <p><a href="?day=5">Friday</a></p>
+        <p><a href="?day=6">Saturday</a></p>
+
+
+	<!---
+	<p>
+    <img src="images/pumpkin-spice-latte.jpg" alt="Our Pumpkin Spice Latte tastes great on a Fall Day!" id="coffee" />
+    <strong class="feature">Monday's Coffee Special:</strong> Monday's daily coffee special is <strong class="feature">Pumpkin Spice Latte</strong>, 
+    which makes us wish it was always Fall, as this is one of our top sellers!</p> -->
+	<script src="daily-grind.js"></script> 
+
+    
+
+
+
+</body>
+</html>
